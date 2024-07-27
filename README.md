@@ -48,7 +48,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import dcusumors from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-dcusumors@deno/mod.js';
+import dcusumors from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-dcusumors@v0.2.2-deno/mod.js';
 ```
 
 #### dcusumors( N, sum, x, strideX, y, strideY )
@@ -167,7 +167,7 @@ dcusumors.ndarray( 4, 0.0, x, 2, 1, y, -1, y.length-1 );
 var discreteUniform = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-discrete-uniform' ).factory;
 import filledarrayBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-filled-by@deno/mod.js';
 import Float64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float64@deno/mod.js';
-import dcusumors from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-dcusumors@deno/mod.js';
+import dcusumors from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-dcusumors@v0.2.2-deno/mod.js';
 
 var x = filledarrayBy( 10, 'float64', discreteUniform( 0, 100 ) );
 var y = new Float64Array( x.length );

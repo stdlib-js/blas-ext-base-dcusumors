@@ -2,6 +2,40 @@
 
 > Package changelog.
 
+<section class="release" id="unreleased">
+
+## Unreleased (2026-03-04)
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`c8d626b`](https://github.com/stdlib-js/stdlib/commit/c8d626b5b79c93a1d186c11abda9bc914437208d) - **bench:** refactor to use string interpolation in blas/ext/base/dcusumors [(#10684)](https://github.com/stdlib-js/stdlib/pull/10684) _(by Kamal Singh Rautela)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 1 person contributed to this release. Thank you to this contributor:
+
+-   Kamal Singh Rautela
+
+</section>
+
+<!-- /.contributors -->
+
+</section>
+
+<!-- /.release -->
+
 <section class="release" id="v0.3.1">
 
 ## 0.3.1 (2026-02-07)
